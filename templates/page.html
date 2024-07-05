@@ -83,27 +83,27 @@
         <div class="likeco-btn" data-name="{{ config.extra.likecoin_name }}" data-allowed-query-string=""></div>
       {% endif %}
       <!-- AddToAny BEGIN -->
-      <div class="addtoany-block">
+      <!-- <div class="addtoany-block">
         <a href="https://www.addtoany.com/share#url={{ page.permalink }}&amp;title={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/a2a.svg"></a>
         <a href="https://www.addtoany.com/add_to/mastodon?linkurl={{ page.permalink }}&amp;linkname={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/mastodon.svg"></a>
         <a href="https://www.addtoany.com/add_to/telegram?linkurl={{ page.permalink }}&amp;linkname={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/telegram.svg"></a>
         <a href="https://www.addtoany.com/add_to/twitter?linkurl={{ page.permalink }}&amp;linkname={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/twitter.svg"></a>
         <a href="https://www.addtoany.com/add_to/facebook?linkurl={{ page.permalink }}&amp;linkname={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/facebook.svg"></a>
         <a href="https://www.addtoany.com/add_to/line?linkurl={{ page.permalink }}&amp;linkname={{ page.title }}" target="_blank" rel="noopener noreferrer nofollow"><img class="button" src="https://static.addtoany.com/buttons/line.svg"></a>
-      </div>
+      </div> -->
       <!-- AddToAny END -->
-      {% if config.extra.utterances and config.extra.utterances_repo %}
-        <hr>
-        <script src="https://utteranc.es/client.js"
-          repo="{{ config.extra.utterances_repo | safe }}"
-          issue-term="pathname"
-          label="Comment"
-          theme="preferred-color-scheme"
-          crossorigin="anonymous"
-          async>
-        </script>
-      {% endif %}
-    </section>
+        <!-- {% if config.extra.utterances and config.extra.utterances_repo %}
+          <hr>
+          <script src="https://utteranc.es/client.js"
+            repo="{{ config.extra.utterances_repo | safe }}"
+            issue-term="pathname"
+            label="Comment"
+            theme="preferred-color-scheme"
+            crossorigin="anonymous"
+            async>
+          </script>
+        {% endif %}
+      </section> -->
     <br>
     {% if config.extra.likecoin and config.extra.likecoin_name %}
       <script src="https://noobtw.github.io/likeco-btn/likeco-btn.js" async></script>
