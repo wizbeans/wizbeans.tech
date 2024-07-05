@@ -32,6 +32,7 @@ jobs:
           rm -rf .github .gitignore
           mv ../public/* .
           touch .nojekyll
+          echo 'wizbeans.tech' > CNAME
           git add .
           git commit -m "generated using zola build"
           git push --set-upstream origin $TARGET_BRANCH --force
