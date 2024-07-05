@@ -253,6 +253,12 @@ hr {
     > .item::marker {
         content: "# ";
     }
+
+    > .item {
+        > a {
+        color: red;
+        }
+    }
 }
 
 .article-list {
