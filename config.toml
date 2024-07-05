@@ -7,10 +7,12 @@ description = "A Fruity Blog"
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+# highlight_code = true
 
 # When set to "true", a feed is automatically generated.
-generate_feed = false
+generate_feeds = false
+
+minify_html = true
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a builtin template that renders an Atom 1.0 feed.
