@@ -83,7 +83,7 @@ hr {
 .body-block {
     margin: 0 auto 0 auto;
     color: hsla(0, 0%, 10%, 1.0);
-    font-family: 'Noto Serif TC', 'Noto Serif CJK TC', serif;
+    font-family: 'Roboto Slab', 'Noto Serif CJK TC', serif;
     background-color: white;
 
     > .content-block {
@@ -243,6 +243,7 @@ hr {
 #nav-block {
     > #tag-list {
         margin-left: 1em;
+        color: purple;
     }
 }
 
