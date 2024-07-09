@@ -1,6 +1,6 @@
 +++
 title = "Entanglement of Mind and Stories"
-description = "We create Stories and Stories create Us!"
+description = "We create Stories and Stories create Us! It is a rondo. - Chinua Achebe"
 draft = false
 
 [taxonomies]
